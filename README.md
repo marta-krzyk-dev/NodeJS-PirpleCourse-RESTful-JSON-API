@@ -1,5 +1,5 @@
-# NodeJS-PirpleCourse-RESTful-JSON-API
-Homework Assignment #1 for
+# RESTful-Hello-API
+This is a RESTful JSON API created as a homework Assignment #1 for
 https://pirple.thinkific.com/courses/the-nodejs-master-class
 
 ## How to run the project?
