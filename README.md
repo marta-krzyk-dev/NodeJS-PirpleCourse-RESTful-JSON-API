@@ -26,6 +26,9 @@ Define lang query parameter to get a greeting in another language.</br>
 ![Default handler](https://github.com/marta-krzyk-dev/NodeJS-PirpleCourse-RESTful-JSON-API/blob/master/Screenshots/default_route_in_web_browser.png?raw=true)
 
 ## Using HTTPS port
-To make request using HTTPS port via Postman, make sure to turn off *SSL certificate verification* option in *Settings > General*.
+1. Make sure to include **https://** before hostname while using HTTPS port.
+![Default handler on HTTPS port](https://github.com/marta-krzyk-dev/RESTful-Hello-API/blob/master/Screenshots/default_route_https2.png?raw=true)
+
+2. To make request using HTTPS port via Postman, make sure to turn off *SSL certificate verification* option in *Settings > General*.
 Possibly, one might also need to turn off both 'Global Proxy' and *System Proxy* in  *Settings > Proxy*.</br>
 ![Default handler on HTTPS port](https://github.com/marta-krzyk-dev/RESTful-Hello-API/blob/master/Screenshots/default_route_https.png?raw=true)
