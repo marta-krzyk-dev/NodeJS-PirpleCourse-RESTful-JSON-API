@@ -15,10 +15,10 @@ By default it's 'staging'.
 <code>node index.js production</code>(for Windows)</br>
 <code>NODE_ENV=production node index.js</code>(for Linux)
 
-4. The app should inform which ports are in listening mode.
+4. The app should inform which ports are active.
 ![Starting the Hello app in console](https://github.com/marta-krzyk-dev/NodeJS-PirpleCourse-RESTful-JSON-API/blob/master/Screenshots/console_commands.png?raw=true)
 
-5. Open up a web browser or a tool like Postman app. Make a request to the localhost:3000/hello route, where 3000 is the number of port from previous point.
+5. Open up a web browser or a tool like Postman app. Make a request to one of the active ports, eg. localhost:3000/hello.</br>
 ![Hello route in web browser](https://github.com/marta-krzyk-dev/NodeJS-PirpleCourse-RESTful-JSON-API/blob/master/Screenshots/hello_in_browser.png?raw=true)
 
 By default, the app responses with a greeting in Esperanto.
