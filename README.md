@@ -22,6 +22,5 @@ By default it's 'staging'.</br>
 By default, the app responses with a greeting in Esperanto.</br>
 Define lang query parameter to get a greeting in another language.</br>
 ![Hello in belarusian](https://github.com/marta-krzyk-dev/NodeJS-PirpleCourse-RESTful-JSON-API/blob/master/Screenshots/hello_be_route.png?raw=true)
-
 6. To list other possible languages, make request to **localhost:3000/default**. Mispelled or non-existing routes will also result in connecting to the **default route** that instructs how to use **hello route**.</br>
 ![Default handler](https://github.com/marta-krzyk-dev/NodeJS-PirpleCourse-RESTful-JSON-API/blob/master/Screenshots/default_route_in_web_browser.png?raw=true)
