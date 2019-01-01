@@ -4,8 +4,8 @@ https://pirple.thinkific.com/courses/the-nodejs-master-class
 
 ## How to run the project?
 1. Open the command prompt (for Windows, click Start icon and type in 'cmd') 
-2. In the command line, go to the project directory:</br>
-<code>cd C:/Documents/Projects/NodeJS-PirpleCourse-RESTful-JSON-API</code>
+2. In the command line, go to the project directory, eg.:</br>
+<code>cd C:/HelloAPI</code>
 3. Run the app:</br>
 <code>node index.js</code>
 
