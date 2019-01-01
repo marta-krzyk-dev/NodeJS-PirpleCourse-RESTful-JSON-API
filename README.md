@@ -17,7 +17,7 @@ By default it's 'staging'.</br>
 4. The app should inform which ports are active.</br>
 ![Starting the Hello app in console](https://github.com/marta-krzyk-dev/NodeJS-PirpleCourse-RESTful-JSON-API/blob/master/Screenshots/console_commands.png?raw=true)
 
-5. Open up a web browser or a tool like Postman app. Make a request to one of the active ports, eg. **localhost:3000/hello**. (where 3000 is one of the ports from point 4)</br>
+5. Open up a web browser or a tool like [Postman!](www.getpostman.com). Make a request to one of the active ports, eg. **localhost:3000/hello**. (where 3000 is one of the ports from point 4)</br>
 ![Hello route in web browser](https://github.com/marta-krzyk-dev/NodeJS-PirpleCourse-RESTful-JSON-API/blob/master/Screenshots/hello_in_browser.png?raw=true)</br>
 By default, the app responses with a greeting in Esperanto.</br>
 Define lang query parameter to get a greeting in another language.</br>
