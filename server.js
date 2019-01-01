@@ -25,7 +25,7 @@ server.httpsServerOptions = {
 	'cert' : fs.readFileSync(path.join(__dirname,'./https/cert.pem'))
 	};
 
-server.httpsServer = http.createServer(server.httpsServerOptions, function(req,res) {
+server.httpsServer = https.createServer(server.httpsServerOptions, function(req,res) {
 		server.unifiedServer(req, res)
 	});
 
@@ -33,7 +33,7 @@ server.httpsServer = http.createServer(server.httpsServerOptions, function(req,r
 server.unifiedServer = function(req, res){
 
 		const 	parsedUrl = url.parse(req.url, true);
-		var		path = parsedUrl.pathname;
+		var	path = parsedUrl.pathname;
 		const 	trimmedPath = path.replace(/^\/+|\/+$/g,'');
 		
 		//Get the query string as an object
