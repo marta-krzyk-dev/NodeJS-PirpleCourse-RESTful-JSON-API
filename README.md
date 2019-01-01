@@ -27,8 +27,8 @@ Define lang query parameter to get a greeting in another language.</br>
 
 ## Using HTTPS port
 1. Make sure to include **https://** before hostname while using HTTPS port.
-![Default handler on HTTPS port](https://github.com/marta-krzyk-dev/RESTful-Hello-API/blob/master/Screenshots/default_route_https2.png?raw=true)
-
-2. To make request using HTTPS port via Postman, make sure to turn off *SSL certificate verification* option in *Settings > General*.
-Possibly, one might also need to turn off both 'Global Proxy' and *System Proxy* in  *Settings > Proxy*.</br>
 ![Default handler on HTTPS port](https://github.com/marta-krzyk-dev/RESTful-Hello-API/blob/master/Screenshots/default_route_https.png?raw=true)
+
+2. To make request using HTTPS port via Postman, turn off *SSL certificate verification* option in *Settings > General*.</br>
+Possibly, one might also need to turn off both *Global Proxy* and *System Proxy* in *Settings > Proxy*.</br>
+![Default handler on HTTPS port](https://github.com/marta-krzyk-dev/RESTful-Hello-API/blob/master/Screenshots/default_route_https2.png?raw=true)
