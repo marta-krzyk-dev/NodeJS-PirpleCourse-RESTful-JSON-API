@@ -7,8 +7,7 @@ https://pirple.thinkific.com/courses/the-nodejs-master-class
 2. In the command line, go to the project directory, eg.:</br>
 <code>cd C:/HelloAPI</code>
 3. Run the app:</br>
-<code>node index.js</code>
-
+<code>node index.js</code></br>
 Optionally, one can set the environment as command line argument (value is 'production' or 'staging').
 By default it's 'staging'.
 
@@ -18,12 +17,12 @@ By default it's 'staging'.
 4. The app should inform which ports are active.</br>
 ![Starting the Hello app in console](https://github.com/marta-krzyk-dev/NodeJS-PirpleCourse-RESTful-JSON-API/blob/master/Screenshots/console_commands.png?raw=true)
 
-5. Open up a web browser or a tool like Postman app. Make a request to one of the active ports, eg. localhost:3000/hello.</br>
+5. Open up a web browser or a tool like Postman app. Make a request to one of the active ports, eg. **localhost:3000/hello**.</br>
 ![Hello route in web browser](https://github.com/marta-krzyk-dev/NodeJS-PirpleCourse-RESTful-JSON-API/blob/master/Screenshots/hello_in_browser.png?raw=true)
 
 By default, the app responses with a greeting in Esperanto.
 Define lang query parameter to get a greeting in another language.</br>
 ![Hello in belarusian](https://github.com/marta-krzyk-dev/NodeJS-PirpleCourse-RESTful-JSON-API/blob/master/Screenshots/hello_be_route.png?raw=true)
 
-6. Mispelled or non-existing routes will result in connecting to the **default route** that instructs how to use **hello route**.</br>
+6. To list other possible languages, make request to **localhost:3000/default**. Mispelled or non-existing routes will also result in connecting to the **default route** that instructs how to use **hello route**.</br>
 ![Default handler](https://github.com/marta-krzyk-dev/NodeJS-PirpleCourse-RESTful-JSON-API/blob/master/Screenshots/default_route_in_web_browser.png?raw=true)
