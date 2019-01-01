@@ -15,15 +15,15 @@ By default it's 'staging'.
 <code>node index.js production</code>(for Windows)</br>
 <code>NODE_ENV=production node index.js</code>(for Linux)
 
-4. The app should inform which ports are active.
+4. The app should inform which ports are active.</br>
 ![Starting the Hello app in console](https://github.com/marta-krzyk-dev/NodeJS-PirpleCourse-RESTful-JSON-API/blob/master/Screenshots/console_commands.png?raw=true)
 
 5. Open up a web browser or a tool like Postman app. Make a request to one of the active ports, eg. localhost:3000/hello.</br>
 ![Hello route in web browser](https://github.com/marta-krzyk-dev/NodeJS-PirpleCourse-RESTful-JSON-API/blob/master/Screenshots/hello_in_browser.png?raw=true)
 
 By default, the app responses with a greeting in Esperanto.
-Define lang query parameter to get a greeting in another language.
+Define lang query parameter to get a greeting in another language.</br>
 ![Hello in belarusian](https://github.com/marta-krzyk-dev/NodeJS-PirpleCourse-RESTful-JSON-API/blob/master/Screenshots/hello_be_route.png?raw=true)
 
-6. Mispelled or non-existing routes will result in connecting to the **default route** that instructs how to use **hello route**.
+6. Mispelled or non-existing routes will result in connecting to the **default route** that instructs how to use **hello route**.</br>
 ![Default handler](https://github.com/marta-krzyk-dev/NodeJS-PirpleCourse-RESTful-JSON-API/blob/master/Screenshots/default_route_in_web_browser.png?raw=true)
