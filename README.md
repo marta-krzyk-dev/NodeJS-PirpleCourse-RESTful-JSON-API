@@ -1,5 +1,5 @@
 # RESTful-Hello-API
-This is a RESTful JSON API created as a homework Assignment #1 for
+This is a RESTful JSON API created as a homework Assignment #1 for</br>
 https://pirple.thinkific.com/courses/the-nodejs-master-class
 
 ## How to run the project?
@@ -20,9 +20,9 @@ By default it's 'staging'.</br>
 5. Open up a web browser or a tool like [Postman](https://www.getpostman.com/). Make a request to one of the active ports, eg. **localhost:3000/hello**. (where 3000 is one of the ports from point 4)</br>
 ![Hello route in web browser](https://github.com/marta-krzyk-dev/NodeJS-PirpleCourse-RESTful-JSON-API/blob/master/Screenshots/hello_in_browser.png?raw=true)</br>
 By default, the app responses with a greeting in Esperanto.</br>
-Define lang query parameter to get a greeting in another language.</br>
+Define **?lang=** query parameter to get a greeting in another language.</br>
 ![Hello in belarusian](https://github.com/marta-krzyk-dev/NodeJS-PirpleCourse-RESTful-JSON-API/blob/master/Screenshots/hello_be_route.png?raw=true)
-6. To list other possible languages, make request to **localhost:3000/default**. Mispelled, non-existing or lack of route will also result in connecting to the **default route** that instructs how to use **hello route**.</br>
+6. To list possible languages, make request to **localhost:3000/default**. Mispelled, non-existing or lack of route will also result in connecting to the **default route** that instructs how to use **hello route**.</br>
 ![Default handler](https://github.com/marta-krzyk-dev/NodeJS-PirpleCourse-RESTful-JSON-API/blob/master/Screenshots/default_route_in_web_browser.png?raw=true)
 
 ## Using HTTPS port
