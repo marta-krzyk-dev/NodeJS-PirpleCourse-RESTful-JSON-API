@@ -5,7 +5,7 @@ https://pirple.thinkific.com/courses/the-nodejs-master-class
 ## How to run the project?
 0. Download the project.
 1. Open the command prompt (for Windows, click Start icon and type in 'cmd') 
-2. In the command line, go to the project directory, eg.:</br>
+2. In the command line, go to the project directory:</br>
 <code>cd C:/HelloAPI</code>
 3. Run the app:</br>
 <code>node index.js</code></br>
@@ -29,6 +29,6 @@ Define lang query parameter to get a greeting in another language.</br>
 1. Make sure to include **https://** before hostname while using HTTPS port.
 ![Default handler on HTTPS port](https://github.com/marta-krzyk-dev/RESTful-Hello-API/blob/master/Screenshots/default_route_https.png?raw=true)
 
-2. To make request using HTTPS port via Postman, turn off *SSL certificate verification* option in *Settings > General*.</br>
+2. To make request via Postman, turn off *SSL certificate verification* option in *Settings > General*.</br>
 Possibly, one might also need to turn off both *Global Proxy* and *System Proxy* in *Settings > Proxy*.</br>
 ![Default handler on HTTPS port](https://github.com/marta-krzyk-dev/RESTful-Hello-API/blob/master/Screenshots/default_route_https2.png?raw=true)
