@@ -17,7 +17,7 @@ By default it's 'staging'.</br>
 4. The app should inform which ports are active.</br>
 ![Starting the Hello app in console](https://github.com/marta-krzyk-dev/NodeJS-PirpleCourse-RESTful-JSON-API/blob/master/Screenshots/console_commands.png?raw=true)
 
-5. Open up a web browser or a tool like [Postman!](https://www.getpostman.com/). Make a request to one of the active ports, eg. **localhost:3000/hello**. (where 3000 is one of the ports from point 4)</br>
+5. Open up a web browser or a tool like [Postman](https://www.getpostman.com/). Make a request to one of the active ports, eg. **localhost:3000/hello**. (where 3000 is one of the ports from point 4)</br>
 ![Hello route in web browser](https://github.com/marta-krzyk-dev/NodeJS-PirpleCourse-RESTful-JSON-API/blob/master/Screenshots/hello_in_browser.png?raw=true)</br>
 By default, the app responses with a greeting in Esperanto.</br>
 Define lang query parameter to get a greeting in another language.</br>
@@ -29,6 +29,6 @@ Define lang query parameter to get a greeting in another language.</br>
 1. Make sure to include **https://** before hostname while using HTTPS port.
 ![Default handler on HTTPS port](https://github.com/marta-krzyk-dev/RESTful-Hello-API/blob/master/Screenshots/default_route_https.png?raw=true)
 
-2. To make request via [Postman!](https://www.getpostman.com/), turn off *SSL certificate verification* option in *Settings > General*.</br>
+2. To make request via [Postman](https://www.getpostman.com/), turn off *SSL certificate verification* option in *Settings > General*.</br>
 Possibly, one might also need to turn off both *Global Proxy* and *System Proxy* in *Settings > Proxy*.</br>
 ![Default handler on HTTPS port](https://github.com/marta-krzyk-dev/RESTful-Hello-API/blob/master/Screenshots/default_route_https2.png?raw=true)
