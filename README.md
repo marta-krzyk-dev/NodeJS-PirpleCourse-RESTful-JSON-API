@@ -3,6 +3,7 @@ This is a RESTful JSON API created as a homework Assignment #1 for
 https://pirple.thinkific.com/courses/the-nodejs-master-class
 
 ## How to run the project?
+0. Download the project.
 1. Open the command prompt (for Windows, click Start icon and type in 'cmd') 
 2. In the command line, go to the project directory, eg.:</br>
 <code>cd C:/HelloAPI</code>
